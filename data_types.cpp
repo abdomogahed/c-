@@ -1,0 +1,26 @@
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	string n1, n2;
+	int i1, i2, g1, g2;
+	cout << "what is student 1 name ? \n";
+	cin >> n1;
+	cout << "his id \n";
+	cin >> i1;
+	cout << "his math exam grade\n ";
+	cin >> g1;
+	cout << "what is student 2 name ? \n";
+	cin >> n2;
+	cout << "his id\n ";
+	cin >> i2;
+	cout << "his math exam grade\n ";
+	cin >> g2;
+
+	cout << n1 << "(with id" << i1 << ")got grade:" << g1 << '\n';
+	cout << n2 << "(with id" << i2 << ")got grade:" << g2 << "\n";
+	cout << "average grade is" << (g1 + g2) / 2;
+	return 0;
+}
