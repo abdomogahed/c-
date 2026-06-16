@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double n1, n2, n3, n4, n5;
+	cout << "enter 5 num\n";
+	cin >> n1 >> n2 >> n3 >> n4>>n5;
+	cout << ((n1 + n2 + n3 + n4 + n5) / 5)<<"\n";                      //ده علشان اجيب المتوست بتاع كلو
+	cout << ((n1 + n2 + n3) / (n4 + n5)) << "\n";                      // مجموع اول رقمين علي مجموع تاني رقمين
+	cout << ((n1 + n2 + n3) / 3) / ((n4 + n5)/2) << "\n";              //متوسط اول رقمين علي متوسط  تاني رقمين
+
+
+
+	return 0;
+}
+   
