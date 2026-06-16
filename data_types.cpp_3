@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n1, n2, n3, n4, n5, n6, n7, n8;
+	cout << "give me 8 num\n ";
+	cin >> n1 >> n2 >> n3 >> n4 >> n5 >> n6 >> n7 >> n8;
+	//هنا هجمع الارقام ال موجوده في الاماكن الزوجيه لوحدها والفرديه لوحدها
+	cout << "even" << n2 + n4 + n6 + n8<<"\n";
+	cout << "ood" << n1 + n2 + n3 + n4;
+	return 0;
+}
