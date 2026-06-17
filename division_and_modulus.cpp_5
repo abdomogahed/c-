@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n1,n2;
+	cout << "enter 2 num\n";
+	cin >> n1>>n2;
+	cout << double(n1%n2)/n2;            //هنا شلت الرقم الصحيح باستخدام % و بعدين قسمت الباقي علي الرقم التاني
+	
+
+
+                                             دي طريقتي
+	return 0;
+}
+  ***************************************************************************************** 
+
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	double a, b;
+	cin>>a>>b;
+
+	double result = a/b;
+
+	cout<<result - (int)result;
+
+	return 0;
+}
