@@ -1,0 +1,32 @@
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n;
+	
+	cout << "enter 1 num\n";
+	cin >> n;
+	int x = ((n % 10) + (n / 10) % 10 + (n / 100) % 10);
+	if (n < 10000)
+		cout << "this is a small num ";
+	else {
+
+		
+		if (x % 2 == 1) {
+			cout << x << "\n";
+			cout << "this is a grate num ";
+		}
+		else {
+			if ((n % 10) % 2 == 1 || ((n / 10) % 10) % 2 == 1 || ((n / 100) % 10) % 2 == 1)
+				cout << "this is a good num ";
+			else
+				cout << "this is a bad num ";
+		}
+	}
+
+
+	return 0;
+}
+   
