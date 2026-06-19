@@ -6,7 +6,7 @@ int main()
 
     int a, b, c, d, e, f, g, h, i, j;
 
-    cout << "enter 1 num\n";
+    cout << "enter 10 num\n";
     cin >> a >> b >> c >> d >> e >> f >> g >> h >> i >> j;
     if (a > b)b = a;
     if (b > c)c = b;
