@@ -1,0 +1,54 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int a, b, c, d, e, f;
+
+    cout << "enter 1 num\n";
+    cin >> a;
+    cout << "enter 5 num\n";
+    cin >> b >> c >> d >> e >> f;
+    int x = 0;
+    if (a >= b)
+        x = x + 1;
+    if (a >= c)
+        x = x + 1;
+    if (a >= d)
+        x = x + 1;
+    if (a >= e)
+        x = x + 1;
+    if (a >= f)
+        x = x + 1;
+    cout << x << " " << 5 - x;
+
+
+                                                         //دي طريقتي علشان اقارن رقم  بخمسه
+
+    return 0;
+}
+
+
+
+
+#include<iostream>
+using namespace std;
+
+int main() {
+	int x, a1, a2, a3, a4, a5;
+
+	cin >> x >> a1 >> a2 >> a3 >> a4 >> a5;
+
+	int cnt = 0;
+
+	cnt += (a1 <= x);
+	cnt += (a2 <= x);
+	cnt += (a3 <= x);
+	cnt += (a4 <= x);
+	cnt += (a5 <= x);
+
+	cout << cnt << " " << 5 - cnt << "\n";
+
+	return 0;
+}
