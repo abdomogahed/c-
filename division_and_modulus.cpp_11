@@ -1,0 +1,52 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int a, b, c, d, e, f, g, h, i, j;
+
+    cout << "enter 1 num\n";
+    cin >> a >> b >> c >> d >> e >> f >> g >> h >> i >> j;
+    if (a > b)b = a;
+    if (b > c)c = b;
+    if (c > d)d = c;
+    if (d > e)e = d;
+    if (e > f)f = e;
+    if (f > g)g = f;
+    if (g > h)h = g;
+    if (h > i)i = h;
+    if (i > j)j = i;
+    cout << j;
+
+
+                                         //طريقه اختيار اكبر رقم من عشر ارقام
+
+
+
+    return 0;
+}
+********************************************************************
+#include<iostream>
+using namespace std;
+
+int main() {
+	int result, num;
+
+	cin>>result;	// First number
+
+	// Read 9 times and maximize
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+	cin>>num;	if(result < num)	result = num;
+
+	cout<<result;
+
+	return 0;
+}
