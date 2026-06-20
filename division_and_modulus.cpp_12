@@ -1,0 +1,55 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int n,m,c;
+    
+    cout << "enter 1 num\n";
+    cin >> n;
+    cout << "enter" << n << " num\n";
+    cin >> m;
+        if (n >= 2) { cin >> c; if (c > m)m = c; }
+        if (n >= 3) { cin >> c; if (c > m)m = c; }
+        if (n >= 4) { cin >> c; if (c > m)m = c; }
+        if (n >= 5) { cin >> c; if (c > m)m = c; }
+        if (n >= 6) { cin >> c; if (c > m)m = c; }
+        if (n >= 7) { cin >> c; if (c > m)m = c; }
+        if (n >= 8) { cin >> c; if (c > m)m = c; }
+        if (n >= 9) { cin >> c; if (c > m)m = c; }
+        if (n >= 10) { cin >> c; if (c > m)m = c; }
+        cout << m;
+
+    
+
+
+    return 0;
+}
+************************************************************************************************
+#include<iostream>
+using namespace std;
+
+int main() {
+	int cnt, result, num;
+
+	cin>>cnt;
+
+	cin>>result;	// First number
+	cnt -= 1;
+
+	// Read  times and maximize
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+	if(cnt > 0)		{cnt -=1;		cin>>num;	if(result < num)	result = num;		}
+
+	cout<<result;
+
+	return 0;
+}
