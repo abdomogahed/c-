@@ -1,0 +1,39 @@
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num_of_cases;
+
+    cout << "enter the num of the cases: \n";
+
+    cin >> num_of_cases;
+
+    while (num_of_cases > 0) {
+
+        int num_of_integers1;
+
+        cout << "enter num_of_integers1 \n";
+        cin >> num_of_integers1;
+        cout << "Enter " << num_of_integers1 << " numbers: \n";
+        int value = 1;
+        int number_entered1;
+        cin >> number_entered1;
+        while (value < num_of_integers1)
+        {
+            int number_entered2;
+            cin >> number_entered2;
+            if (number_entered1 > number_entered2)
+            {
+                number_entered1 = number_entered2;
+            }
+            value++;
+        }
+        cout << number_entered1 << "\n";
+        num_of_cases--;
+    }
+    return 0;
+}
+
+
+
