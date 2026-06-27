@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int num,start=1;
+    cout<<"enter the num \n";
+    cin >>num;
+while (start <=num){
+    if (start%3==0){cout<<start<<" ";}
+    start++;
+}
+
+
+	return 0;
+
+}
+
