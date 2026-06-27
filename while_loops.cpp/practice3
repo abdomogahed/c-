@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int intger, b=0;
+    cout <<"enter the intger\n";
+    cin >>intger;
+    while(intger %10>0){
+        b=b+1;
+        intger = intger/10;
+    }
+    cout <<"the num of digits: "<< b;
+
+    
+
+	return 0;
+
+}
