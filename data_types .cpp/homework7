@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b, c, d;     //هعمل متغير رابع علشان يساعدني 
+	cout << "enter 3 num \n";
+	cin >> a >> b>>c;
+	d = b;
+	b = c;
+	c = a;
+	a = d;
+    //كده انا عملت swap
+    
+
+	cout << a << "  " << b<<"  "<<c;
+
+	return 0; //دي طريقتي انا 
+}
+
