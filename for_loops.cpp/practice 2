@@ -1,0 +1,27 @@
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num1,num2,sum;
+
+    cout << "enter num1 and num2 and sum: \n";
+    cin >> num1 >> num2 >> sum;
+    
+
+    for (int start1 = 0, start2 = 0;start1 <= num1;start1++) {
+        for (int x = 0;start1 + num2 == sum; num2--) {
+            cout << start1 << " "<<num2<<"\n";
+
+          
+        }
+                                     
+
+
+        
+    }
+    return 0;
+}
+
+
+
