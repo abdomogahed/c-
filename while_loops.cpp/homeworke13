@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num_of_cases;
+
+    cout << "enter the num of the cases: \n";
+
+    cin >> num_of_cases;
+    while (num_of_cases > 0) {
+
+        int numbers_count;
+        cout << "enter the numbers_count :\n";
+        cin >> numbers_count;
+        cout << "enter " << numbers_count << " num\n";
+
+        int x = 0;
+        int final_result = 0;
+       
+      
+
+        while (numbers_count > 0) {
+            int first_number;
+            cin >> first_number;
+            int loop = 1;
+            int result = 1;
+            
+
+            while (loop > x)
+            {
+                result *= first_number;
+                loop--;
+            }
+
+            final_result += result;
+            x--;
+
+            numbers_count--;
+            cout << result << " + ";
+        }
+        cout <<" = "<< final_result << "\n";
+        num_of_cases--;
+    }
+
+    return 0;
+}
+
+
+
