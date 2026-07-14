@@ -36,6 +36,9 @@ int main() {
             x--;
 
             numbers_count--;
+            if (numbers_count == 0)
+                cout << result;
+            else
             cout << result << " + ";
         }
         cout <<" = "<< final_result << "\n";
